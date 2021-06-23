@@ -1,0 +1,100 @@
+* {
+  border: 0px;
+  margin: 0px;
+}
+body {
+  background-image: url("../img/fundoDois.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  min-width: 99%;
+  min-height: 99%;
+}
+
+.fundoDegrade {
+  background: rgba(196, 196, 196, 0.46);
+  width: 40%;
+  height: 90%;
+  border: 0px;
+}
+.conjuntoCentral {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.historico {
+  margin-top: 2%;
+  background-image: linear-gradient(
+    219.53deg,
+    #a4d8e3 -47.51%,
+    rgba(192, 152, 234, 0.577158) 3.23%,
+    rgba(192, 153, 234, 0.573053) 20.15%,
+    rgba(186, 26, 212, 0.19) 76.09%
+  );
+  width: 10%;
+  font-size: 18px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.753);
+  font-family: "Russo One";
+}
+.imgChuteira {
+  filter: invert(90%);
+  width: 50%;
+}
+.justfut {
+  margin-top: 2%;
+  background-image: linear-gradient(
+    219.53deg,
+    #a4d8e3 -47.51%,
+    rgba(192, 152, 234, 0.577158) 3.23%,
+    rgba(192, 153, 234, 0.573053) 20.15%,
+    rgba(186, 26, 212, 0.19) 76.09%
+  );
+  color: rgba(255, 255, 255, 0.753);
+  width: 18%;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  justify-content: center;
+  display: flex;
+  float: right;
+}
+.imgBola {
+  filter: invert(90%);
+  width: 15%;
+  height: 15%;
+}
+
+.alinhamentoDireita {
+  align-items: center;
+  float: right;
+}
+
+.datas {
+  padding: 40px;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.data-item {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to top,
+    transparent,
+    rgba(196, 196, 196, 0.6)
+  );
+  border: 0;
+  height: 40px;
+  font-family: "Aldrich";
+}

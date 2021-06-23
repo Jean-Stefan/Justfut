@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="shortcut icon"
+      href="/assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/login.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login - JustFut</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="cabecalho"></header>
+
+      <main class="conteudo">
+        <div class="box-cadastro">
+          <a href="./index.html"><h1 class="logo">JustFut</h1></a>
+          <img class="bola" src="assets/img/bola.png" alt="" />
+          <h2 class="sublogo">Sua partida mais justa.</h2>
+
+          <form name="formulario" action="/" class="formulario" id="formulario">
+            <div class="linha1">
+              <div class="campo">
+                <label for="usuario">Usuário</label>
+                <div>
+                  <input class="usuario" type="text" id="usuario" required />
+                </div>
+              </div>
+            </div>
+
+            <div class="linha1">
+              <div class="campo">
+                <label for="senha">Senha</label>
+                <div>
+                  <input class="senha" type="password" id="senha" required />
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <button type="submit" class="botao" id="botao">Entrar</button>
+            </div>
+          </form>
+          <a href="./cadastro.html"
+            ><button class="botao-cadastro">Cadastre-se</button></a
+          >
+        </div>
+      </main>
+    </div>
+    <script src="assets/js/login.js"></script>
+    <script src="assets/js/login2.js"></script>
+  </body>
+</html>
