@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+    rel="shortcut icon"
+    href="assets/favicon/favicon.ico"
+    type="image/x-icon"
+  />
+    <link rel="stylesheet" href="./assets/css/cadastro.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cadastro - JustFut</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="cabecalho"></header>
+
+      <main class="conteudo">
+        <div class="box-cadastro">
+          <a href="./index.html"><h1 class="logo">JUSTFUT</h1></a>
+          <img class="bola" src="assets/img/bola.png" alt="" />
+          <h2 class="sublogo">SUA PARTIDA MAIS JUSTA.</h2>
+
+          <form name="formulario" action="/" class="formulario" id="formulario">
+            <div class="linha2">
+              <div class="usuario campo">
+                <label for="usuario">USUÁRIO</label>
+                <div>
+                  <input type="usuario" id="usuario" required />
+                </div>
+              </div>
+
+              <div class="senha campo">
+                <label for="senha">SENHA</label>
+                <div>
+                  <input type="password" id="senha" required />
+                </div>
+              </div>
+            </div>
+
+            <div class="linha1">
+              <div class="campo">
+                <label for="nome">DIGITE SEU NOME COMPLETO</label>
+                <div>
+                  <input class="nome" type="text" id="nome" required />
+                </div>
+              </div>
+            </div>
+
+            <div class="linha2">
+              <div class="data-de-nascimento campo">
+                <label for="dt_nasc">DATA DE NASCIMENTO</label>
+                <div>
+                  <input type="date" id="dt_nasc" required />
+                </div>
+              </div>
+
+              <div class="genero campo">
+                <label for="genero">GÊNERO</label>
+                <div>
+                  <select name="genero" id="genero">
+                    <option value="masculino">MASCULINO</option>
+                    <option value="feminino">FEMININO</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="linha3">
+              <div class="estado campo">
+                <label for="estado">ESTADO</label>
+                <div>
+                  <select name="estado" id="estado">
+                    <option value="acre">AC</option>
+                    <option value="alagoas">AL</option>
+                    <option value="amapa">AP</option>
+                    <option value="amazonas">AM</option>
+                    <option value="bahia">BA</option>
+                    <option value="ceara">CE</option>
+                    <option value="distrito_federal">DF</option>
+                    <option value="espírito_santo">ES</option>
+                    <option value="goias">GO</option>
+                    <option value="maranhão">MA</option>
+                    <option value="mato_grosso">MT</option>
+                    <option value="mato_grosso_do_sul">MS</option>
+                    <option value="minas_gerais">MG</option>
+                    <option value="para">PA</option>
+                    <option value="paraiba">PB</option>
+                    <option value="parana">PR</option>
+                    <option value="pernambuco">PE</option>
+                    <option value="piaui">PI</option>
+                    <option value="rio_de_janeiro">RJ</option>
+                    <option value="rio_grande_do_norte">RN</option>
+                    <option value="rio_grande_do_sul">RS</option>
+                    <option value="rondonia">RO</option>
+                    <option value="roraima">RR</option>
+                    <option value="santa_catarina">SC</option>
+                    <option value="sao_paulo">SP</option>
+                    <option value="sergipe">SE</option>
+                    <option value="tocantins">TO</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="altura campo">
+                <label for="altura">ALTURA</label>
+                <div>
+                  <input
+                    type="number"
+                    id="altura"
+                    min="1"
+                    max="2.20"
+                    step=".01"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="nivel campo">
+                <label for="nivel">NÍVEL</label>
+                <div>
+                  <select name="nivel" id="nivel" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div>
+              <button type="submit" class="botao" id="botao">
+                CRIAR PERFIL
+              </button>
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+    <script src="assets/js/cadastro.js"></script>
+  </body>
+</html>
