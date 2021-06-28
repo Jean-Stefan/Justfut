@@ -1,0 +1,123 @@
+* {
+  border: 0px;
+  margin: 0px;
+}
+
+
+body {
+  background-image: url("../img/fundoDois.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.historico ul {
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    219.53deg,
+    #a4d8e3 -47.51%,
+    rgba(192, 152, 234, 0.577158) 3.23%,
+    rgba(192, 153, 234, 0.573053) 20.15%,
+    rgba(186, 26, 212, 0.19) 76.09%
+  );
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.753);
+  font-family: "Russo One";
+}
+
+.historico ul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.historico img {
+  width: 64px;
+  height: 64px;
+}
+
+.imgChuteira {
+  filter: invert(90%);
+}
+.imgBola {
+  filter: invert(90%);
+}
+
+#data {
+  font-family: "Aldrich";
+  font-style: normal;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 1mm;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  width: 100%;
+  height: 20px;
+  padding: 5px;
+}
+
+.fundoDegrade {
+  background: rgba(196, 196, 196, 0.46);
+  min-width: 90%;
+  min-height: 90%;
+  border: 0px;
+}
+
+.conjuntoCentral {
+  width: 100vw;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-excluir,
+.botao-sortear,
+.botao-voltar {
+  background: linear-gradient(
+    219.53deg,
+    #a4d8e3 -47.51%,
+    rgba(192, 152, 234, 0.577158) 3.23%,
+    rgba(192, 153, 234, 0.573053) 20.15%,
+    rgba(186, 26, 212, 0.19) 76.09%
+  );
+
+  font-family: "Russo One";
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.753);
+  text-align: center;
+}
+
+.botao-excluir:hover,
+.botao-sortear:hover,
+.botao-voltar:hover {
+  cursor: pointer;
+}
+
+.alinhamentoDireita {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.flex-container {
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Russo One";
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
